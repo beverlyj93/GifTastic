@@ -1,0 +1,58 @@
+img {
+    padding: 0px 20px;
+    height: 150px;
+    width: 150px;
+}
+
+p {
+    padding-left: 10%;
+}
+
+#btn {
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 2px 2px;
+}
+
+#button-submit {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btn:active {
+    background-color: cornflowerblue;
+}
+
+button:focus {
+    outline: none;
+}
+
+.image {
+    display: inline-block;
+}
+
+.info-container {
+    float: left;
+    max-width: 60%;
+}
+
+.input-container {
+    float: right;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+input {
+    padding: 5px;
+    margin: 2px 0px;
+}
+
+#input-number {
+    width: 51px;
+}
+
+.buttons, .pictures {
+    padding: 25px;
+    max-width: 100%;
+}
